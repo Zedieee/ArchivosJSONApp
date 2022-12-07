@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    app:flow_verticalGap="20sp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/estadoTextView"
+    android:text="Estado"
+    android:textSize="20sp"
+    >
+
+</TextView>
+    <TextView
+        android:id="@+id/municipioTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Municipio"
+        android:textSize="20sp"
+        >
+
+
+    </TextView>
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/aguascalientes"
+    android:scaleType="fitStart"
+    android:id="@+id/imagenMunicipioImageView"
+
+    android:layout_marginTop="20dp"
+    >
+
+</ImageView>
+</LinearLayout>
